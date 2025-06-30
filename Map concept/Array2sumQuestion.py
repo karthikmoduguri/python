@@ -8,5 +8,5 @@ l1.reverse()
 l2.reverse()
 print(l2)
 print(l1)
-l3=lambda x,y:[x+y for x,y in map(x,y)]
+l3=lambda x,y:[x+y for x,y in zip(x,y)]
 print(l3(l1,l2))
